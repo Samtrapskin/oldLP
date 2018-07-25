@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="matx no-js"> <!--<![endif]-->
+    <head>
+        <!-- META
+        ========================================================================== -->    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Material Design Personal Template">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- TITLE
+        ========================================================================== -->
+        <title>PersonX - Blog Single</title>
+
+        <!-- FAVICONS
+        ========================================================================== -->
+        <link rel="shortcut icon" href="../../favicon/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="../../favicon/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="../../favicon/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="../../favicon/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="../../favicon/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="../../favicon/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="../../favicon/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="../../favicon/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="../../favicon/apple-touch-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon-180x180.png" />
+        
+        <!-- GOOGLE FONTS
+        ========================================================================== -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700italic,700,500italic,900' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
+
+        <!-- STYLESHEETS
+        ========================================================================== -->
+        <!-- MATERIAL DESIGN ICONIC FONT -->
+        <link rel="stylesheet" href="../../assets/libs/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+        <!-- IONICONS -->
+        <link rel="stylesheet" href="../../assets/libs/ionicons/css/ionicons.min.css">
+
+        <!-- MATERIAL CSS -->
+        <link rel="stylesheet" href="../../assets/libs/mdl/material.min.css">
+
+        <!-- OWL CAROUSEL -->
+        <link rel="stylesheet" href="../../assets/libs/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="../../assets/libs/owl-carousel/owl.theme.default.min.css">
+
+        <!-- MAGNIFIC POPUP -->
+        <link rel="stylesheet" href="../../assets/libs/magnific-popup/magnific-popup.css">
+
+        <!-- SWEETALERT -->
+        <link rel="stylesheet" href="../../assets/libs/sweetalert/sweet-alert.min.css">
+        <link rel="stylesheet" href="../../assets/libs/sweetalert/ie9.css">
+
+        <!-- ANIMATE -->
+        <link rel="stylesheet" href="../../assets/libs/animate/animate.min.css">
+
+        <!-- COMMON CSS -->
+        <link rel="stylesheet" href="../../assets/css/common.css">
+
+        <!-- MAIN CSS -->
+        <link rel="stylesheet" href="../../assets/css/main.css">
+
+        <!-- COLOR CSS -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-01.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-02.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-03.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-04.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-05.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-06.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-07.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-08.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-09.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-10.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-11.css"> -->
+        <!-- <link rel="stylesheet" href="../../assets/css/color-12.css"> -->
+
+
+        <!-- HEADER SCRIPTS
+        ========================================================================== -->
+        <!--[if lt IE 9]>
+            <script src="assets/js/vendor/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body class="page-blog page-blog--single">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- START PRELOADER -->
+        <div id="loader" class="preloader">
+            <div class="preloader__inner"></div>
+        </div>
+        <!-- END PRELOADER -->
+
+        <!-- START SEARCH OVERLAY -->
+        <div id="fullSearch" class="search-bar hide-bg">
+            <div class="search-bg"></div>
+            <i class="zmdi zmdi-close search-close"></i>
+            <div class="search-form-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <form action="javascript:void(0)" class="personx-form-valid">
+                                <div class="search-field">
+                                    <p class="search-label">Just type and press 'Enter'</p>
+                                    <div class="mdl-textfield mdl-js-textfield">
+                                        <input class="mdl-textfield__input" type="text" placeholder="Search" id="search-input">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- /.container -->                
+            </div>
+        </div>
+        <!-- END SEARCH OVERLAY -->
+
+        <!-- START HAMBURGER -->
+        <div class="visible-sm visible-xs visible-xxs mobile-menu-trigger">
+            <button class="hamburger hamburger--spin" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>                  
+        </div>            
+        <!-- END HAMBURGER -->        
+
+        <!-- START MOBILE MENU
+        ========================================================================== -->
+        <nav class="mobile-menu visible-sm visible-xs visible-xxs">
+            <div class="mobile-menu__header">
+                <div class="mobile-menu__header__content">
+                    <img src="../../img/mobile-menu-header-thumb.jpg" alt="mobile-menu-header-thumb">
+                    <h4 class="m-t-xxs-20">John Doe</h4>
+                    <h5>UX/UI Designer</h5>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a href="javascript:void(0)" class="search-open">
+                        <i class="zmdi zmdi-search"></i> 
+                        Search
+                    </a>
+                </li>
+                <li>
+                    <a href="../../index.html">
+                        <i class="zmdi zmdi-home"></i> 
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="../../about.html">
+                        <i class="zmdi zmdi-account"></i> 
+                        About
+                    </a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="javascript:void(0)">
+                        <i class="zmdi zmdi-case"></i> 
+                        Portfolio Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../../portfolio/single-pages/portfolio-single-01.html">Slider Style</a></li>
+                        <li><a href="../../portfolio/single-pages/portfolio-single-02.html">List Style</a></li>
+                        <li><a href="../../portfolio/single-pages/portfolio-single-03.html">List Full Style</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-item">
+                    <a href="javascript:void(0)">
+                        <i class="zmdi zmdi-collection-text"></i> 
+                        Blog Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../blog-masonry.html">Blog Masonry</a></li>
+                        <li><a href="../blog-masonry-sidebar.html">Blog Masonry with Sidebar</a></li>
+                        <li><a href="../blog-standard.html">Blog Standard</a></li>
+                        <li class="dropdown-item">
+                            <a href="javascript:void(0)">Blog Single</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="single.html">Image</a></li>
+                                <li><a href="single-audio.html">Audio</a></li>
+                                <li><a href="single-video.html">Video</a></li>
+                                <li><a href="single-video-youtube.html">YouTube</a></li>
+                                <li><a href="single-video-vimeo.html">Vimeo</a></li>
+                                <li><a href="single-slider.html">Slider</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown-item">
+                    <a href="javascript:void(0)">
+                        <i class="zmdi zmdi-email"></i> 
+                        Contact Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../../contact-1.html">Contact 1</a></li>
+                        <li><a href="../../contact-2.html">Contact 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="mobile-menu__footer">
+                <h4>Follow Me</h4>
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-google-plus"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-dribbble"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="zmdi zmdi-behance"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- END MOBILE MENU -->
+
+        <!-- START NAVBAR -->
+        <header class="site-navbar">
+
+            <!-- START LOGO -->
+            <a href="../../index.html" class="site-logo">
+                <img class="site-logo__image-1" src="../../img/logo/personx-logo.png" alt="logo-1">
+                <img class="site-logo__image-2" src="../../img/logo/personx-logo-2.png" alt="logo-2">
+            </a>
+            <!-- END LOGO -->
+
+            <!-- SEARCH -->
+            <div class="search hidden-xxs hidden-xs hidden-sm">
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--fab mdl-button--search search-open">
+                    <i class="zmdi zmdi-search"></i>
+                </button>
+            </div>
+
+            <!-- START NAV -->
+            <nav class="site-nav site-nav--secondary hidden-xxs hidden-xs hidden-sm">
+                <ul class="cl-effect-5">
+                    <li>
+                        <a href="../../index.html">
+                            <span data-hover="Home">
+                                <span>Home</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../about.html">
+                            <span data-hover="About">
+                                <span>About</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="javascript:void(0)">
+                            <span data-hover="Portfolio Pages">
+                                <span>Portfolio Pages</span>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../../portfolio/single-pages/portfolio-single-01.html">Slider Style</a></li>
+                            <li><a href="../../portfolio/single-pages/portfolio-single-02.html">List Style</a></li>
+                            <li><a href="../../portfolio/single-pages/portfolio-single-03.html">List Full Style</a></li>                          
+                        </ul>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="javascript:void(0)">
+                            <span data-hover="Blog Pages">
+                                <span>Blog Pages</span>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../blog-masonry.html">Blog Masonry</a></li>
+                            <li><a href="../blog-masonry-sidebar.html">Blog Masonry with Sidebar</a></li>
+                            <li><a href="../blog-standard.html">Blog Standard</a></li>
+                            <li class="dropdown-item">
+                                <a href="javascript:void(0)">Blog Single</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="single.html">Image</a></li>
+                                    <li><a href="single-audio.html">Audio</a></li>
+                                    <li><a href="single-video.html">Video</a></li>
+                                    <li><a href="single-video-youtube.html">YouTube</a></li>
+                                    <li><a href="single-video-vimeo.html">Vimeo</a></li>
+                                    <li><a href="single-slider.html">Slider</a></li>
+                                </ul>
+                            </li>                        
+                        </ul>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="javascript:void(0)">
+                            <span data-hover="Contact Pages">
+                                <span>Contact Pages</span>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../../contact-1.html">Contact 1</a></li>
+                            <li><a href="../../contact-2.html">Contact 2</a></li>                          
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- END NAV -->
+        </header>
+        <!-- END NAVBAR -->
+        
+        <!-- START BANNER -->
+        <section class="banner banner--small section-main overflow-hidden">
+            <div class="bg-parallax" data-top="transform: translate3d(0px, 0px, 0px); opacity: 1;" data-top-bottom="transform: translate3d(0px, 250px, 0px); opacity: 0;"></div>
+            <div class="banner__v-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xxs-12">
+                            <div class="banner__content banner__content--2">
+                                <div class="banner__content__text">
+                                    <h2 class="wow fadeInLeftSmall">Blog Single Quote</h2>
+                                    <p class="wow fadeInLeftSmall" data-wow-delay=".3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eaque?</p>  
+                                </div>
+                            </div>
+                        </div><!-- /.col-xxs-12 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div>
+        </section>
+        <!-- END BANNER -->
+
+        <!-- SINGLE -->
+        <section class="section-main section-padding section single-blog-post-content-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <div class="single-blog-post-content">
+                                    <div class="quote-post">
+                                        <!-- POST CONTENT WRAP -->
+                                        <div class="post-content-wrap">
+                                            <div class="mdl-card__supporting-text">
+                                                <p class="mdl-card__title-content">
+                                                    <a href="blog/single/single-quote.html">
+                                                        Don't cry because it's over, smile because it happened.
+                                                    </a>
+                                                </p>
+                                                <i class="zmdi zmdi-quote"></i>
+                                                <div class="post-meta-info">
+                                                    <span class="post-meta-date">Dr. Seuss</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Praesent nonummy mi in odio. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Aenean massa. Fusce egestas elit eget lorem. Curabitur a felis in nunc fringilla tristique.
+                                    </p>
+                                    <h3 class="text-uppercase">Design you need everyday</h3>
+                                    <p>
+                                        Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Nulla consequat massa quis enim. In ut quam vitae odio lacinia tincidunt. Fusce convallis metus id felis luctus adipiscing. Etiam imperdiet imperdiet orci. Cras risus ipsum, faucibus ut, ullamcorper id, varius ac, leo. Ut a nisl id ante tempus.
+                                    </p>
+                                    <h4 class="text-uppercase">Lorem ipsum dolor sit amet</h4>
+                                    <p>
+                                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam cursus lacinia erat. In hac habitasse platea dictumst. Nullam vel sem. Nullam accumsan lorem in dui. Aenean commodo ligula eget dolor. Nulla sit amet est. Curabitur vestibulum aliquam leo. Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. Suspendisse faucibus..
+                                    </p>
+                                    <blockquote>
+                                        Aenean ut eros et nisl sagittis vestibulum. Morbi mattis ullamcorper velit. Etiam vitae tortor. Donec posuere vulputate arcu. Nullam accumsan lorem in dui.
+                                    </blockquote>
+                                    <p>
+                                        Suspendisse feugiat. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Etiam feugiat lorem non metus. Vivamus quis mi. Donec vitae sapien ut libero venenatis faucibus. Phasellus gravida semper nisi. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Pellentesque auctor neque nec urna. Fusce commodo aliquam arcu. Etiam iaculis nunc ac metus. Nulla sit amet est.
+                                    </p>
+                                    <ul class="list">
+                                        <li>Consectetur adipiscing elit vtae elit libero</li>
+                                        <li>Nullam id dolor id eget lacinia odio posuere erat a ante</li>
+                                        <li>Integer posuere erat dapibus posuere velit</li>
+                                    </ul>
+                                    <p>
+                                        Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. Fusce fermentum odio nec arcu. In auctor lobortis lacus. Fusce vel dui. Praesent turpis. Fusce fermentum odio nec arcu. Aenean commodo ligula eget dolor. Etiam iaculis nunc ac metus. Praesent blandit laoreet nibh. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Ut varius tincidunt libero. Donec id justo.
+                                    </p>
+<pre>if ($formattedResponse === FALSE) {
+    return redirect('user/dashboard')-&gt;with([
+        'message'=&gt;'Request Not Found',
+        'message_important'=&gt;true
+    ]);
+}</pre>
+                                    <p class="weight-500">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non enim ut enim fringilla adipiscing id in lorem. Quisque aliquet neque vitae lectus tempus consectetur. Aliquam erat volutpat. Nunc eu nibh nulla, id cursus arcu.
+                                    </p>
+                                    <p class="italic">
+                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam at velit nisl. Aenean vitae est nisl. Cras molestie molestie nisl vel imperdiet. Donec vel mi sem.
+                                    </p>
+                                    
+                                    <!-- SHARE -->
+                                    <div class="single-blog-post-content__share">
+                                        <div class="single-blog-post-content__share__title">
+                                            Social Share
+                                        </div>
+                                        <div class="single-blog-post-content__share__icons">
+                                            <ul>
+                                                <li><a href="javascript:void(0)"><i class="zmdi zmdi-facebook"></i> <span>12</span></a></li>
+                                                <li><a href="javascript:void(0)"><i class="zmdi zmdi-twitter"></i> <span>5</span></a></li>
+                                                <li><a href="javascript:void(0)"><i class="zmdi zmdi-google-plus"></i> <span>0</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                        
+                                    <!-- COMMENTS -->
+                                    <div class="single-blog-post-content__comments">
+                                        <h4 class="text-uppercase">8 Comments</h4>
+
+                                        <ul>
+                                            <li>
+                                                <!-- COMMENT -->
+                                                <div class="single-blog-post-content__comments__comment">
+                                                    <div class="single-blog-post-content__comments__comment__gravatar">
+                                                        <img src="../../img/gravatar/01.jpg" alt="Gravatar">
+                                                    </div>
+                                                    <div class="single-blog-post-content__comments__comment__text">
+                                                        <div class="single-blog-post-content__comments__comment__text__top">
+                                                            <div class="single-blog-post-content__comments__comment__text__top__left">
+                                                                <h4>Coderpixel Says:</h4>
+                                                                <span>October 24, 2015 at 07.50 am</span>
+                                                            </div>
+                                                            <div class="single-blog-post-content__comments__comment__text__top__right">
+                                                                <a href="javascript:void(0)">
+                                                                    <i class="zmdi zmdi-mail-reply"></i><span>Reply</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-blog-post-content__comments__comment__text__top__bottom">
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non enim ut enim fringilla adipiscing id in lorem. Quisque aliquet neque vitae lectus tempus consectetur.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <!-- COMMENT -->
+                                                        <div class="single-blog-post-content__comments__comment">
+                                                            <div class="single-blog-post-content__comments__comment__gravatar">
+                                                                <img src="../../img/gravatar/04.jpg" alt="Gravatar">
+                                                            </div>
+                                                            <div class="single-blog-post-content__comments__comment__text">
+                                                                <div class="single-blog-post-content__comments__comment__text__top">
+                                                                    <div class="single-blog-post-content__comments__comment__text__top__left">
+                                                                        <h4>Coderpixel Says:</h4>
+                                                                        <span>October 24, 2015 at 07.50 am</span>
+                                                                    </div>
+                                                                    <div class="single-blog-post-content__comments__comment__text__top__right">
+                                                                        <a href="javascript:void(0)">
+                                                                            <i class="zmdi zmdi-mail-reply"></i><span>Reply</span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="single-blog-post-content__comments__comment__text__top__bottom">
+                                                                    <p>
+                                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non enim ut enim fringilla adipiscing id in lorem. Quisque aliquet neque vitae lectus tempus consectetur.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <!-- COMMENT -->
+                                                                <div class="single-blog-post-content__comments__comment">
+                                                                    <div class="single-blog-post-content__comments__comment__gravatar">
+                                                                        <img src="../../img/gravatar/01.jpg" alt="Gravatar">
+                                                                    </div>
+                                                                    <div class="single-blog-post-content__comments__comment__text">
+                                                                        <div class="single-blog-post-content__comments__comment__text__top">
+                                                                            <div class="single-blog-post-content__comments__comment__text__top__left">
+                                                                                <h4>Coderpixel Says:</h4>
+                                                                                <span>October 24, 2015 at 07.50 am</span>
+                                                                            </div>
+                                                                            <div class="single-blog-post-content__comments__comment__text__top__right">
+                                                                                <a href="javascript:void(0)">
+                                                                                    <i class="zmdi zmdi-mail-reply"></i><span>Reply</span>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="single-blog-post-content__comments__comment__text__top__bottom">
+                                                                            <p>
+                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non enim ut enim fringilla adipiscing id in lorem. Quisque aliquet neque vitae lectus tempus consectetur.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>                                               
+                                            </li>
+                                            <li>
+                                                <!-- COMMENT -->
+                                                <div class="single-blog-post-content__comments__comment">
+                                                    <div class="single-blog-post-content__comments__comment__gravatar">
+                                                        <img src="../../img/gravatar/02.jpg" alt="Gravatar">
+                                                    </div>
+                                                    <div class="single-blog-post-content__comments__comment__text">
+                                                        <div class="single-blog-post-content__comments__comment__text__top">
+                                                            <div class="single-blog-post-content__comments__comment__text__top__left">
+                                                                <h4>Coderpixel Says:</h4>
+                                                                <span>October 24, 2015 at 07.50 am</span>
+                                                            </div>
+                                                            <div class="single-blog-post-content__comments__comment__text__top__right">
+                                                                <a href="javascript:void(0)">
+                                                                    <i class="zmdi zmdi-mail-reply"></i><span>Reply</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-blog-post-content__comments__comment__text__top__bottom">
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non enim ut enim fringilla adipiscing id in lorem. Quisque aliquet neque vitae lectus tempus consectetur.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>                                                
+                                            </li>
+                                            <li>
+                                                <!-- COMMENT -->
+                                                <div class="single-blog-post-content__comments__comment">
+                                                    <div class="single-blog-post-content__comments__comment__gravatar">
+                                                        <img src="../../img/gravatar/03.jpg" alt="Gravatar">
+                                                    </div>
+                                                    <div class="single-blog-post-content__comments__comment__text">
+                                                        <div class="single-blog-post-content__comments__comment__text__top">
+                                                            <div class="single-blog-post-content__comments__comment__text__top__left">
+                                                                <h4>Coderpixel Says:</h4>
+                                                                <span>October 24, 2015 at 07.50 am</span>
+                                                            </div>
+                                                            <div class="single-blog-post-content__comments__comment__text__top__right">
+                                                                <a href="javascript:void(0)">
+                                                                    <i class="zmdi zmdi-mail-reply"></i><span>Reply</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-blog-post-content__comments__comment__text__top__bottom">
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non enim ut enim fringilla adipiscing id in lorem. Quisque aliquet neque vitae lectus tempus consectetur.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>                                                
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- FORMS -->
+                                    <div class="single-blog-post-content__form m-t-xxs-60">
+                                        <h4 class="text-uppercase m-b-xxs-30 m-b-sm-35">Leave a Reply</h4>
+                                        <form action="#">
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <div class="mdl-textfield mdl-js-textfield m-b-xxs-15 m-b-sm-0">
+                                                        <input class="mdl-textfield__input" type="text" placeholder="Your Name">
+                                                    </div>
+                                                </div><!-- /.col-sm-4 -->
+                                                <div class="col-sm-4">
+                                                    <div class="mdl-textfield mdl-js-textfield m-b-xxs-15 m-b-sm-0">
+                                                        <input class="mdl-textfield__input" type="email" placeholder="Your Email">
+                                                    </div>
+                                                </div><!-- /.col-sm-4 -->
+                                                <div class="col-sm-4">
+                                                    <div class="mdl-textfield mdl-js-textfield">
+                                                        <input class="mdl-textfield__input" type="text" placeholder="Subject">
+                                                    </div>
+                                                </div><!-- /.col-sm-4 -->
+                                            </div><!-- /.row -->
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="mdl-textfield mdl-textfield--textarea mdl-js-textfield">
+                                                        <textarea class="mdl-textfield__input" type="text" placeholder="Your Message"></textarea>
+                                                    </div>                                    
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="text-left m-t-xxs-30">
+                                                        <button class="mdl-button mdl-button--large mdl-js-button mdl-js-ripple-effect" disabled>Send</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>                                    
+                                </div>
+                            </div><!-- /.col-sm-8 -->
+
+                            <div class="col-sm-4">
+                                <aside class="sidebar">
+                                    <div class="sidebar__widget sidebar__widget--recent-posts">
+                                        <h4 class="sidebar__widget__title">Recent Posts</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:void(0)">We support any type of design</a>
+                                                <span>October 24, 2015</span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">We support any type of design</a>
+                                                <span>October 24, 2015</span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">We support any type of design</a>
+                                                <span>October 24, 2015</span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">We support any type of design</a>
+                                                <span>October 24, 2015</span>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">We support any type of design</a>
+                                                <span>October 24, 2015</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="sidebar__widget sidebar__widget--categories">
+                                        <h4 class="sidebar__widget__title">Categories</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:void(0)">Google design</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">UX Design</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">UI Design</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">Material Design</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">Flat Design</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="sidebar__widget sidebar__widget--archives">
+                                        <h4 class="sidebar__widget__title">Archives</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:void(0)">Septembar 2015</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">October 2015</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">Novembar 2015</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">December 2015</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)">January 2015</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="sidebar__widget sidebar__widget--tags">
+                                        <h4 class="sidebar__widget__title">Tags</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:void(0)" class="mdl-button mdl-js-button mdl-js-ripple-effect">Awesome</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)" class="mdl-button mdl-js-button mdl-js-ripple-effect">Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)" class="mdl-button mdl-js-button mdl-js-ripple-effect">Coderpixel</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)" class="mdl-button mdl-js-button mdl-js-ripple-effect">Creative</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)" class="mdl-button mdl-js-button mdl-js-ripple-effect">Matx</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)" class="mdl-button mdl-js-button mdl-js-ripple-effect">Google Design</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0)" class="mdl-button mdl-js-button mdl-js-ripple-effect">Material Design</a>
+                                            </li>  
+                                        </ul>
+                                    </div>
+                                </aside>
+                            </div><!-- /.col-sm-4 -->   
+                        </div>                     
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section>
+        <!-- END BLOG POST -->
+        
+        
+        <!-- START FOOTER -->
+        <footer class="footer section">
+            <section class="footer__top">
+                <div class="container">
+                    <div class="footer__top__inner text-center">
+                        <a href="../../index.html" class="m-b-xxs-30 m-b-md-40 wow fadeInDownSmall">
+                            <img src="../../img/logo/footer-logo.png" alt="footer-logo">
+                        </a>
+                        <ul>
+                            <li class="wow fadeInUpSmall"><a href="javascript:void(0)"><i class="zmdi zmdi-facebook"></i></a></li>
+                            <li class="wow fadeInUpSmall" data-wow-delay=".1s"><a href="javascript:void(0)"><i class="zmdi zmdi-twitter"></i></a></li>
+                            <li class="wow fadeInUpSmall" data-wow-delay=".2s"><a href="javascript:void(0)"><i class="zmdi zmdi-google-plus"></i></a></li>
+                            <li class="wow fadeInUpSmall" data-wow-delay=".3s"><a href="javascript:void(0)"><i class="zmdi zmdi-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!-- /.container -->
+            </section>
+            <section class="footer__bottom">
+                <div class="container">
+                    <div class="footer__bottom__text text-center">
+                        <p>PersonX &copy; 2016. All Rights Reserved.</p>
+                    </div>
+                </div><!-- /.container -->
+            </section>
+        </footer>
+        <!-- END FOOTER -->
+
+
+        <!-- START BACK TO TOP -->
+        <button id="backToTop" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect back-to-top shade-on hide-right">
+            <i class="zmdi zmdi-chevron-down"></i>
+        </button>
+        <!-- END BACK TO TOP -->
+
+        
+        <!-- SCRIPTS
+        ========================================================================== -->
+        <!-- JQUERY -->
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+
+        <!-- GOOGLE MAP API -->
+        <script src="https://maps.google.com/maps/api/js?key=Place_Your_Google_Map_API_Key"></script>
+        
+        <!-- ALL PLUGINS -->
+        <script src="../../assets/js/plugins.js"></script>
+
+        <!-- JW PLAYER -->
+        <script src="../../assets/libs/jwplayer/jwplayer.js"></script>
+
+        <!-- ALL COMPONENTS JS -->
+        <script src="../../assets/js/components.js"></script>
+    </body>
+</html>
