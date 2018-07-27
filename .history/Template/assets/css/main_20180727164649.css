@@ -3824,15 +3824,7 @@ hr  {
   margin-left: 120px;
   margin-right: 120px;
 
-} 
-div.gallery1 {
-  /* padding-left: 15px;
- padding-right: 15px;  */
-  padding-bottom: 10px; 
-  /* margin-bottom: 80px; */
- margin-left: 90px;
- margin-right: 128px;
-
+  background-color: #054933; 
 } 
 
 /* div.gallery:hover {
@@ -3844,7 +3836,6 @@ div.gallery1 {
     
 div.gallery img:hover {
 transform: scale(1.8);
-
 
 }
 
@@ -3893,7 +3884,7 @@ div.desc {
 /* /// END SKILLS LOGOS /// */
 .resume {
 
-    background-color: #233237;
+    background-color: #D7CEC7;
     margin-bottom: -30px;
 
 }

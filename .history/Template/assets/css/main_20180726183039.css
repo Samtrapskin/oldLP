@@ -3758,13 +3758,15 @@ hr  {
 }
 /* /// LOGOS in SKILLS SECTION /// */
 
-.react {
+/* .react {
   height: 110px;
   width: 150px;
   float: left;
   display: block;
   padding-left: 40px;
-}
+
+
+} */
 .angular  {
   height: 60px;
   width: 220px;
@@ -3811,40 +3813,29 @@ hr  {
   /* padding-left: 40px; */
   display: block;
   float: right;
-
+  margin-bottom: 150px;
 }
 /* ////////////////////////////////////// */
 
 
  div.gallery {
-   /* padding-left: 15px;
-  padding-right: 15px;  */
+   border: 1px solid #1C1C1C; 
+   padding-left: 15px;
+  padding-right: 15px; 
    padding-bottom: 10px; 
    /* margin-bottom: 80px; */
-  margin-left: 120px;
-  margin-right: 120px;
-
-} 
-div.gallery1 {
-  /* padding-left: 15px;
- padding-right: 15px;  */
-  padding-bottom: 10px; 
-  /* margin-bottom: 80px; */
- margin-left: 90px;
- margin-right: 128px;
-
+  /* margin-top: 20px; */
+  background-color: #1C1C1C; 
 } 
 
-/* div.gallery:hover {
+div.gallery:hover {
   /* border: 1px solid red; */
   /* background-color: white; */
-  /* transform: scale(1.6); 
-} 
-*/
+  /* transform: scale(1.6); */
+}
     
 div.gallery img:hover {
 transform: scale(1.8);
-
 
 }
 
@@ -3867,9 +3858,9 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 28px 6px 0;
+  padding: 0 6px;
   float: left;
-  width: 14.99999%;
+  width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -3888,12 +3879,12 @@ div.desc {
 .clearfix:after {
   content: "";
   display: table;
-  clear: both; 
+  clear: both; */
  } 
 /* /// END SKILLS LOGOS /// */
 .resume {
 
-    background-color: #233237;
+    background-color: #1C1C1C;
     margin-bottom: -30px;
 
 }

@@ -3811,28 +3811,19 @@ hr  {
   /* padding-left: 40px; */
   display: block;
   float: right;
-
+  margin-bottom: 150px;
 }
 /* ////////////////////////////////////// */
 
 
  div.gallery {
+   border: 1px solid yellow; 
    /* padding-left: 15px;
   padding-right: 15px;  */
    padding-bottom: 10px; 
    /* margin-bottom: 80px; */
-  margin-left: 120px;
-  margin-right: 120px;
-
-} 
-div.gallery1 {
-  /* padding-left: 15px;
- padding-right: 15px;  */
-  padding-bottom: 10px; 
-  /* margin-bottom: 80px; */
- margin-left: 90px;
- margin-right: 128px;
-
+  /* margin-top: 20px; */
+  background-color: #1C1C1C; 
 } 
 
 /* div.gallery:hover {
@@ -3844,7 +3835,6 @@ div.gallery1 {
     
 div.gallery img:hover {
 transform: scale(1.8);
-
 
 }
 
@@ -3867,7 +3857,7 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 28px 6px 0;
+  padding: 0 18px 6px 0;
   float: left;
   width: 14.99999%;
 }
@@ -3893,7 +3883,7 @@ div.desc {
 /* /// END SKILLS LOGOS /// */
 .resume {
 
-    background-color: #233237;
+    background-color: #1C1C1C;
     margin-bottom: -30px;
 
 }
