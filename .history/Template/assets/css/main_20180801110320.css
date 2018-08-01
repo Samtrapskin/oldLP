@@ -2104,7 +2104,8 @@ PROFILE
 } */
 .profile {
   
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    z-index: 10;
   
   }
   

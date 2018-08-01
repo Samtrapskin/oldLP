@@ -2105,6 +2105,7 @@ PROFILE
 .profile {
   
     background-color: whitesmoke;
+    z-index: 10;
   
   }
   
