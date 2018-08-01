@@ -50,7 +50,11 @@ COMMON CLASS
   visibility: visible;
 }
 
-
+.headershadow {
+  width: 100%;
+  height: 63px;
+  box-shadow: 10px 10px 5px black;
+}
 /*=========================================
 CUSTOM ANIMATIONS
 ==========================================*/
