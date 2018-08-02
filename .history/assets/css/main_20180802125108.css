@@ -3670,7 +3670,6 @@ hr  {
   /* float: left; */
   color: white;
   padding-top: 10px;
-  padding-right: 30px;
   font-family: "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
 
   /* width: 550px; */
@@ -3723,8 +3722,7 @@ hr  {
 
 .dorsey {
   margin-left: 50px;
-  margin-right: 20px;
-  padding-right: 30px;
+  padding-right: 20px;
   max-width: 700px;
 
 }
@@ -3762,7 +3760,7 @@ hr  {
   max-width: 600px;
   /* display: grid; */
   margin-left: 50px;
-  margin-right: 20px;
+  margin-left: 50px;
 
   padding-right: 30px;
   /* float: right; */

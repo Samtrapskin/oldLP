@@ -35,7 +35,6 @@
         <link href="https://fonts.googleapis.com/css?family=Finger+Paint|Krona+One|Paytone+One|Roboto|Rock+Salt|Ubuntu" rel="stylesheet">
         <!-- STYLESHEETS
         ========================================================================== -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- MATERIAL DESIGN ICONIC FONT -->
         <link rel="stylesheet" href="assets/libs/material-design-iconic-font/css/material-design-iconic-font.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -107,22 +106,22 @@
         <div class="mobile-menu-trigger visible-sm visible-xs visible-xxs">
             <button class="hamburger hamburger--spin" type="button">
                 <span class="hamburger-box">
-                    <span class="hamburger-inner">
-                   
-                    </span>
-                   
+                    <span class="hamburger-inner"></span>
                 </span>
             </button>                  
         </div>            
         <!-- END HAMBURGER -->        
-<!-- 
-        START MOBILE MENU
-        <!-- ========================================================================== -->
+
+        <!-- START MOBILE MENU
+        ==========================================================================
         <nav class="mobile-menu visible-sm visible-xs visible-xxs">
-       
-                    <h4 class="m-t-xxs-20">Samuel Trapskin</h4> 
-                    <!-- <h5>UX/UI Designer</h5> -->
-              
+            <div class="mobile-menu__header">
+                <div class="mobile-menu__header__content">
+                    <img src="img/mobile-menu-header-thumb.jpg" alt="mobile-menu-header-thumb">
+                    <h4 class="m-t-xxs-20">Samuel Trapskin</h4>
+                    <h5>UX/UI Designer</h5>
+                </div>
+            </div>
             <ul>
                 <li>
                     <a href="#about" class="menu-smooth-scroll">
@@ -137,18 +136,47 @@
                     </a>
                 </li>
                 <li>
+                    <a href="#services" class="menu-smooth-scroll">
+                        <i class="zmdi zmdi-settings"></i>
+                        Services
+                    </a>
+                </li>
+                <li>
                     <a href="#portfolio" class="menu-smooth-scroll">
                         <i class="zmdi zmdi-case"></i>
                         Portfolio
                     </a>
-                </li> 
+                </li>
+                <li>
+                    <a href="#team" class="menu-smooth-scroll">
+                        <i class="zmdi zmdi-accounts"></i>
+                        Team
+                    </a>
+                </li>
+                <li>
+                    <a href="#social" class="menu-smooth-scroll">
+                        <i class="zmdi zmdi-share"></i>
+                        Social
+                    </a>
+                </li>
+                <li>
+                    <a href="#blog" class="menu-smooth-scroll">
+                        <i class="zmdi zmdi-collection-text"></i>
+                        Blog
+                    </a>
+                </li>
                 <li>
                     <a href="#contact" class="menu-smooth-scroll">
                         <i class="zmdi zmdi-email"></i>
                         Contact
                     </a>
-                </li> 
-                    <!-- <ul class="dropdown-menu">
+                </li>
+                <li class="dropdown-item">
+                    <a href="javascript:void(0)">
+                        <i class="zmdi zmdi-collection-item"></i>
+                        More Pages
+                    </a>
+                    <ul class="dropdown-menu">
                         <li><a href="about.html">About</a></li>
                         <li><a href="footer-2.html">Footer 2</a></li>
                         <li class="dropdown-item">
@@ -223,9 +251,9 @@
                         </a>
                     </li>
                 </ul>
-            </div> --> 
+            </div>
         </nav>
-         <!-- END MOBILE MENU -->
+         END MOBILE MENU -->
 
         <!-- START SITE NAVBAR
         ========================================================================== -->
@@ -460,47 +488,52 @@
                     <h4 class="resProfile">
                             Skills
                     </h4> 
-                  
-               
+
+                    <div class="mdl-tooltip" data-mdl-for="tt1">
+                            Follow
+                            </div>
                 
                     <div class="responsive">
                             <div class="gallery">
                                   <a href="https://www.w3schools.com/htmL/" target="blank">
                                     
+                                    <div id="tt1">
                                 <img src="img/HTML_Logo.png" alt="HTML logo" style=" height: 90px;
                                 width: 98px; ">
-                            </a>
                             </div>
-                                    
-                                    
-                            
+                            <div class="mdl-tooltip" data-mdl-for="tt1">
+                                    Follow
+                                    </div>   
+                                    </a>
+                            </div>
+                            </div>
                     </div>
-               
+                </a>
                 
                     <div class="responsive">
                             <div class="gallery">
                                 <a href="https://www.w3schools.com/css/" target="blank">
                                 <img src="img/css_icon.png" alt="CSS logo" style=" height: 90px;
                                 width: 98px; ">
-                            </a>
+                              
                             </div>
                     </div>
-               
+                </a>
 
                     <div class="responsive">
                             <div class="gallery">
                               <a href="https://jquery.com/" target="_blank" href="img_5terre.jpg">
                                 <img src="img/jquery-logo.gif" alt="CSS logo" style=" height: 90px;
                                 width: 98px; ">
-                              </a>
+                              
                             </div>
                     </div>
 
                     <div class="responsive">
                             <div class="gallery">
-                              <a href="https://reactjs.org/" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="REACT!"> 
+                              <a href="https://reactjs.org/" target="_blank" href="img_5terre.jpg"> 
                                 <img src="img/reactlogo1.png" alt="react.js logo" style=" height: 90px; width:90px; ">
-                              </a>
+                              
                             </div>
                     </div>
 
@@ -509,7 +542,7 @@
                               <a href="https://angularjs.org/" target="_blank" href="img_5terre.jpg"> 
                                 <img src="img/angularjs-logo.png" alt="Angular.js logo" style=" height: 60px;
                                 width: 178px; ">
-                              </a>
+                              
                             </div>
                     </div>
 
@@ -518,7 +551,7 @@
                             <a href="https://vuejs.org/" target="_blank" href="img_5terre.jpg"> 
                                 <img src="img/Vue.js_Logo.svg.png" alt="vue logo" style=" height: 90px;
                                 width: 98px; margin-left: 8px ">
-                            </a>
+                              
                             </div>
                     </div>
 
@@ -538,7 +571,7 @@
                               <a href="https://material.io/" target="_blank"> 
                                 <img src="img/Material_Design_Logo.svg.png" alt="material design logo" style=" height: 90px;
                                 width: 88px; padding-left: 14px; ">
-                              </a>
+                              
                             </div>
                     </div>
 
@@ -555,7 +588,7 @@
                               <a href="https://wordpress.org/" target="_blank">
                                 <img src="img/WordPress_logo.svg.png" alt="WordPress logo" style=" height: 70px;
                                 width: 190px; ">
-                              </a>
+                              
                             </div>
                     </div>
 
@@ -565,7 +598,7 @@
                               <a href="https://www.adobe.com/creativecloud.html" target="_blank"> 
                                 <img src="img/Adobe-Creative-Cloud.png" alt="adobe creative cloud" style=" height: 100px;
                                 width: 175px; ">
-                              </a>
+                              
                             </div>
                     </div>
 
@@ -1062,7 +1095,7 @@
         
         <!-- START FOOTER -->
         <footer class="footer">
-            <section id="contact">
+            <section class="footer__top">
                 <div class="container">
                         <div class="row">
                                 <div class="section-headings text-center">
@@ -1136,7 +1169,6 @@
         
         <!-- SCRIPTS
         ========================================================================== -->
-    
         <!-- JQUERY -->
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
 

@@ -143,7 +143,7 @@
                     </a>
                 </li> 
                 <li>
-                    <a href="#contact" class="menu-smooth-scroll">
+                    <a href="#footer_y" class="menu-smooth-scroll">
                         <i class="zmdi zmdi-email"></i>
                         Contact
                     </a>
@@ -223,9 +223,9 @@
                         </a>
                     </li>
                 </ul>
-            </div> --> 
+            </div>
         </nav>
-         <!-- END MOBILE MENU -->
+         END MOBILE MENU --> 
 
         <!-- START SITE NAVBAR
         ========================================================================== -->
@@ -1062,7 +1062,7 @@
         
         <!-- START FOOTER -->
         <footer class="footer">
-            <section id="contact">
+            <section class="footer__top">
                 <div class="container">
                         <div class="row">
                                 <div class="section-headings text-center">
@@ -1136,7 +1136,21 @@
         
         <!-- SCRIPTS
         ========================================================================== -->
-    
+        <script>
+                $(document).ready(function(){
+                    $('[data-toggle="tooltip"]').tooltip();   
+                });
+        </script>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        </script>
         <!-- JQUERY -->
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
 

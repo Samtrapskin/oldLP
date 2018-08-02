@@ -1656,7 +1656,7 @@ body.scrolled .mobile-menu-trigger {
   margin-bottom: 12px;
 }
 .mobile-menu > ul li a {
-  color: white;
+  color: #666666;
   display: block;
   padding: 10px 46px 11px 76px;
   position: relative;
@@ -3670,7 +3670,6 @@ hr  {
   /* float: left; */
   color: white;
   padding-top: 10px;
-  padding-right: 30px;
   font-family: "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
 
   /* width: 550px; */
@@ -3722,9 +3721,8 @@ hr  {
 }
 
 .dorsey {
-  margin-left: 50px;
-  margin-right: 20px;
-  padding-right: 30px;
+  margin-left: 80px;
+  padding-right: 20px;
   max-width: 700px;
 
 }
@@ -3750,7 +3748,7 @@ hr  {
 .left {
   /* float: left; */
   max-width: 600px;
-  margin-left: 50px;
+  margin-left: 80px;
   margin-right: 20px;
   padding-right: 30px;
   /* display: grid;  */
@@ -3761,9 +3759,7 @@ hr  {
   display: inline-block;
   max-width: 600px;
   /* display: grid; */
-  margin-left: 50px;
-  margin-right: 20px;
-
+  margin-left: 80px;
   padding-right: 30px;
   /* float: right; */
 

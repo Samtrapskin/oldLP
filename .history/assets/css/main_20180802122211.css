@@ -1572,7 +1572,7 @@ body.scrolled .mobile-menu-trigger {
   max-width: 140px;
   height: 50%;
   background-color: black;
-  opacity: 1;
+  opacity: 0.1;
   z-index: 999999;
   right: -320px;
   -webkit-transition: all .3s;
@@ -1644,7 +1644,7 @@ body.scrolled .mobile-menu-trigger {
 }
 .mobile-menu > ul {
   padding: 28px 0;
-  background-color: black;
+  background-color: #fff;
 }
 @media (min-height: 500px) {
   .mobile-menu > ul {
@@ -1656,7 +1656,7 @@ body.scrolled .mobile-menu-trigger {
   margin-bottom: 12px;
 }
 .mobile-menu > ul li a {
-  color: white;
+  color: #666666;
   display: block;
   padding: 10px 46px 11px 76px;
   position: relative;
@@ -1681,7 +1681,7 @@ body.scrolled .mobile-menu-trigger {
        -o-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 30px;
-  color: white;
+  color: #a1a1a1;
 }
 .mobile-menu > ul li a:hover {
   color: #0fb5b3;
@@ -3670,7 +3670,6 @@ hr  {
   /* float: left; */
   color: white;
   padding-top: 10px;
-  padding-right: 30px;
   font-family: "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
 
   /* width: 550px; */
@@ -3722,9 +3721,8 @@ hr  {
 }
 
 .dorsey {
-  margin-left: 50px;
-  margin-right: 20px;
-  padding-right: 30px;
+  margin-left: 80px;
+  padding-right: 20px;
   max-width: 700px;
 
 }
@@ -3750,7 +3748,7 @@ hr  {
 .left {
   /* float: left; */
   max-width: 600px;
-  margin-left: 50px;
+  margin-left: 80px;
   margin-right: 20px;
   padding-right: 30px;
   /* display: grid;  */
@@ -3761,9 +3759,7 @@ hr  {
   display: inline-block;
   max-width: 600px;
   /* display: grid; */
-  margin-left: 50px;
-  margin-right: 20px;
-
+  margin-left: 80px;
   padding-right: 30px;
   /* float: right; */
 

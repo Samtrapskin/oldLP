@@ -119,10 +119,13 @@
         START MOBILE MENU
         <!-- ========================================================================== -->
         <nav class="mobile-menu visible-sm visible-xs visible-xxs">
-       
+            <div class="mobile-menu__header">
+                <div class="mobile-menu__header__content">
+                    <img src="img/mobile-menu-header-thumb.jpg" alt="mobile-menu-header-thumb">
                     <h4 class="m-t-xxs-20">Samuel Trapskin</h4> 
                     <!-- <h5>UX/UI Designer</h5> -->
-              
+                </div>
+            </div>
             <ul>
                 <li>
                     <a href="#about" class="menu-smooth-scroll">
@@ -148,6 +151,7 @@
                         Contact
                     </a>
                 </li> 
+                 -->
                     <!-- <ul class="dropdown-menu">
                         <li><a href="about.html">About</a></li>
                         <li><a href="footer-2.html">Footer 2</a></li>
@@ -223,9 +227,9 @@
                         </a>
                     </li>
                 </ul>
-            </div> --> 
+            </div>
         </nav>
-         <!-- END MOBILE MENU -->
+         END MOBILE MENU --> 
 
         <!-- START SITE NAVBAR
         ========================================================================== -->
@@ -1062,7 +1066,7 @@
         
         <!-- START FOOTER -->
         <footer class="footer">
-            <section id="contact">
+            <section class="footer__top">
                 <div class="container">
                         <div class="row">
                                 <div class="section-headings text-center">
@@ -1136,7 +1140,21 @@
         
         <!-- SCRIPTS
         ========================================================================== -->
-    
+        <script>
+                $(document).ready(function(){
+                    $('[data-toggle="tooltip"]').tooltip();   
+                });
+        </script>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        </script>
         <!-- JQUERY -->
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
 

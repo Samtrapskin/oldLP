@@ -55,12 +55,11 @@ MATERIAL DESIGN COMPS
 .mdl-tooltip  {
   padding: 3px;
   background: black;
-  /* position: relative; */
+  position: relative;
 }
 /*=========================================
 CUSTOM ANIMATIONS
 ==========================================*/
-
 @-webkit-keyframes fadeInDownSmall {
   0% {
     opacity: 0;
@@ -1569,10 +1568,9 @@ body.scrolled .mobile-menu-trigger {
 .mobile-menu {
   position: fixed;
   width: 90%;
-  max-width: 140px;
-  height: 50%;
-  background-color: black;
-  opacity: 1;
+  max-width: 320px;
+  height: 100%;
+  background-color: #fff;
   z-index: 999999;
   right: -320px;
   -webkit-transition: all .3s;
@@ -1585,8 +1583,8 @@ body.scrolled .mobile-menu-trigger {
 }
 @media (min-height: 500px) {
   .mobile-menu {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 215px;
+    padding-bottom: 90px;
   }
 }
 .mobile-menu--visible {
@@ -1644,11 +1642,11 @@ body.scrolled .mobile-menu-trigger {
 }
 .mobile-menu > ul {
   padding: 28px 0;
-  background-color: black;
+  background-color: #fff;
 }
 @media (min-height: 500px) {
   .mobile-menu > ul {
-    height: 70%;
+    height: 100%;
     overflow-y: auto;
   }
 }
@@ -1656,9 +1654,9 @@ body.scrolled .mobile-menu-trigger {
   margin-bottom: 12px;
 }
 .mobile-menu > ul li a {
-  color: white;
+  color: #666666;
   display: block;
-  padding: 10px 46px 11px 76px;
+  padding: 10px 26px 11px 76px;
   position: relative;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
@@ -1681,7 +1679,7 @@ body.scrolled .mobile-menu-trigger {
        -o-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 30px;
-  color: white;
+  color: #a1a1a1;
 }
 .mobile-menu > ul li a:hover {
   color: #0fb5b3;
@@ -3670,7 +3668,6 @@ hr  {
   /* float: left; */
   color: white;
   padding-top: 10px;
-  padding-right: 30px;
   font-family: "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
 
   /* width: 550px; */
@@ -3722,9 +3719,8 @@ hr  {
 }
 
 .dorsey {
-  margin-left: 50px;
-  margin-right: 20px;
-  padding-right: 30px;
+  margin-left: 80px;
+  padding-right: 20px;
   max-width: 700px;
 
 }
@@ -3750,7 +3746,7 @@ hr  {
 .left {
   /* float: left; */
   max-width: 600px;
-  margin-left: 50px;
+  margin-left: 80px;
   margin-right: 20px;
   padding-right: 30px;
   /* display: grid;  */
@@ -3761,9 +3757,7 @@ hr  {
   display: inline-block;
   max-width: 600px;
   /* display: grid; */
-  margin-left: 50px;
-  margin-right: 20px;
-
+  margin-left: 80px;
   padding-right: 30px;
   /* float: right; */
 
