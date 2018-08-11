@@ -1262,18 +1262,22 @@ NAVBAR
 .site-navbar .site-nav ul {
   display: table;
   line-height: 0;
+  font-family: "Righteous";
+
 }
 .site-navbar .site-nav ul li {
   display: inline-block;
+  font-family: "Righteous";
+
 }
 .site-navbar .site-nav ul li a {
   color: rgba(255, 255, 255, 0.8);
   display: block;
   padding: 15px 17px 16px;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family:  "Righteous", "Roboto", "Helvetica", "Arial", sans-serif;
   font-style: normal;
   letter-spacing: .7px;
   line-height: 1;
@@ -1529,6 +1533,7 @@ NAVBAR
 }
 .site-navbar--scrolled .mobile-menu-trigger {
   margin-top: 11px;
+  
 }
 .site-navbar--scrolled .site-nav ul li.dropdown-item > a:before {
   content: "";
@@ -1972,10 +1977,14 @@ BANNER
 }
 .banner .bg-parallax {
   /* float: right; */
+  opacity: 1;
   transform: scaleY(1.1);
   background-image: url('../../img/wow.png');
 display: inherit;
   top: 0px !important;
+    filter: contrast(30%); /* Safari 6.0 - 9.0 */
+
+
   -webkit-transform: translateY(0);
      /* -moz-transform: translateY(0); */
       /* -ms-transform: translateY(0); */
@@ -2054,7 +2063,7 @@ display: inherit;
   font-weight: 700;
   display: inline-block;
   letter-spacing: 3.8px;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Righteous", "Helvetica", "Arial", sans-serif;
   text-transform: uppercase;
 }
 @media only screen and (max-width: 767px) {
@@ -2107,10 +2116,23 @@ PROFILE
   z-index: 1;
 } */
 .profile {
-  
-    background-color: whitesmoke;
-  
-  }
+  background-color: whitesmoke;
+    /* display: inherit;
+    top: 0px !important;
+    background-image: url("https://i.imgur.com/JmxZPc4.jpg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: center;  
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    margin-bottom: 30px; */
+     
+
+}
+
+ 
   
 /* .profile__picture {
   padding: 8px;
@@ -2126,7 +2148,7 @@ PROFILE
   font-size: 30px;
   font-weight: 110;
   /* font-family: "Ubuntu"  */
-  font-family: "Krona one", "Paytone one", "Roboto", "Ubuntu", "Verdana", "Arial" ;
+  font-family: "Righteous|", "Paytone one", "Roboto", "Ubuntu", "Verdana", "Arial" ;
 }
 
 .profile__short-desc p {
@@ -2136,8 +2158,7 @@ PROFILE
   width:100%;
   border-bottom: 2px black (0, 0, 0, 0.12);
   font-size: 20px;
-  font-weight: 400;
-  font-family: "Ubuntu", "Krona one", "Paytone one", "Roboto", "Verdana", "Arial"
+  font-family: "Righteous", "Krona one", "Paytone one", "Roboto", "Verdana", "Arial"
 }
 .profile__about ul {
   display: table;
