@@ -2158,7 +2158,7 @@ PROFILE
   width:100%;
   border-bottom: 2px black (0, 0, 0, 0.12);
   font-size: 20px;
-  font-family: "Righteous", "Krona one", "Paytone one", "Roboto", "Verdana", "Arial"
+  font-family: "Quicksand",  sans-serif;
 }
 .profile__about ul {
   display: table;
@@ -3657,7 +3657,7 @@ RESUME
 #resTitle {
   padding-top: 15px;
   /* margin-top: 20px; */
-    font-family: "Krona one", "Paytone one", "Roboto", "Ubuntu", "Verdana", "Arial" ;
+    font-family:  "Quicksand",  "sans-serif", "Krona one", "Paytone one", "Roboto", "Ubuntu", "Verdana", "Arial" ;
 
 }
 
@@ -3672,7 +3672,7 @@ hr  {
   padding-top: 30px;
   max-width: 95%;
   text-align: center;
-  font-family: "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
+  font-family: "Quicksand",  "sans-serif" ;
 
   
   /* margin-right: 20px;  */
@@ -3684,7 +3684,7 @@ hr  {
   padding-top: 10px;
   /* list-style-type: decimal; */
   display: list-item;
-  font-family: "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
+  font-family: "Quicksand", "sans-serif","Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
 
 }
 .resLists2  {
@@ -3692,14 +3692,9 @@ hr  {
   color: white;
   padding-top: 10px;
   padding-right: 30px;
-  font-family: "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
-
-  /* width: 550px; */
-
-
-  /* list-style-type: decimal; */
+  font-family: "Quicksand", "sans-serif","Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
   display: list-item;
-  /* float: right; */
+ 
 }
 
 
@@ -3707,7 +3702,7 @@ hr  {
   /* float: left; */
   color: white;
   padding-top: 10px;
-  font-family: "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
+  font-family: "Quicksand",  "sans-serif","Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
 
   /* margin-left: 30px; */
 }
@@ -3717,7 +3712,8 @@ hr  {
   /* margin-top: 20px; */
   color: white;
   padding-top: 30px;
-  font-family: "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
+  font-family: "Quicksand",  "sans-serif","Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
+
 
 }
 
@@ -3727,7 +3723,7 @@ hr  {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  font-family: "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
+  font-family:  "Quicksand",  "sans-serif", "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
 
 
 }
@@ -3737,7 +3733,7 @@ hr  {
   text-decoration: underline;
   padding-top: 30px;
   padding-right: 50px;
-  font-family: "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
+  font-family: "Quicksand", "sans-serif", "Ubuntu","Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
 
   /* margin-left: 30px; */
 }
