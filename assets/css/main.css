@@ -1277,7 +1277,7 @@ NAVBAR
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
-  font-family:  "Righteous", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family:  "Roboto", "Roboto", "Helvetica", "Arial", sans-serif;
   font-style: normal;
   letter-spacing: .7px;
   line-height: 1;
@@ -1450,8 +1450,7 @@ NAVBAR
   opacity: 0;
   line-height: 17px;
   cursor: pointer;
-  font-family: "Ubuntu", "Krona one", "Paytone one", "Roboto", "Verdana", "Arial" ;
-
+  font-family: "Quicksand", sans-serif;
 }
 .site-navbar .site-nav .cl-effect-5 > li > a > span::before {
   position: absolute;
