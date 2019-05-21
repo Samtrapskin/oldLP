@@ -72,10 +72,8 @@ html,body {
 .sam-jam{
   display: inline-block;
   font-family: 'Helvetica75', 'monterastat', 'sans-serif';
-  margin: 0px 0 0 30px;
   color: #fff;
   font-weight: 900;
-  line-height: 1 !important;
   font-size: 5.5rem !important;
   color: #fff;
 }
@@ -86,7 +84,7 @@ html,body {
 
   
   float: left;
-  margin-left: 11mm;
+  margin-left: 4mm;
 }
 
 .loader span {
@@ -101,7 +99,7 @@ html,body {
   
  
   float: left;
-  margin-left: 1.8mm;
+  margin-left: 3.4mm;
 }
 
 .tri-loader span {
@@ -117,7 +115,7 @@ html,body {
 .parallel-loader {
 
   float: left;
-  margin-left: 32.4mm;
+  margin-left: 3.4mm;
   
 }
 .parallel-loader span {
@@ -308,7 +306,7 @@ html,body {
 }
 
 
-.triangle {
+.square {
  
   -webkit-animation: fade 4s 1s infinite linear alternate,
       rotate 4s 1s infinite linear alternate;
@@ -363,12 +361,12 @@ p {
 }
 
 
-.greeting {
+.salutations {
   font-family: 'Helvetica75';
   margin: 50px auto 20px auto;
   font-weight: bold;
   color: #000000;
-  font-size: 1.7em;
+  font-size: 2em;
 }
 
 /* Navigation bar */
@@ -488,7 +486,7 @@ width: 10px;
 .pop {
   color: white;
   background-color: #e5629f;
-  padding: 10px;
+  padding: 12px;
   margin: 5px;
   /* background-color:#3b49dd; */
 }
@@ -496,7 +494,7 @@ width: 10px;
 .pop-blue {
   color: white;
   background-color: #1b57fc;
-  padding: 10px;
+  padding: 12px;
   margin: 5px;
 }
 
